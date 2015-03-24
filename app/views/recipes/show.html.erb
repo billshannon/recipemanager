@@ -12,14 +12,15 @@
     <%= link_to "Edit this Recipe", edit_recipe_path(@recipe), class: "btn btn-success pull-right" %>
     <h3><%= @recipe.summary %></h3>
 
-    <div class="well"
-    <p>
-      <strong>Steps:</strong>
-    </p>
-    <%= simple_format(@recipe.description) %>
+    <div class="show_recipe">
+      <%= image_tag(@recipe.picture.url, class: "gravatar") if @recipe.picture? %>
+    </div>
+    <div class="well">
+      <p>
+        <strong>Steps:</strong>
+      </p>
+      <%= simple_format(@recipe.description) %>
+    </div>
   </div>
 </div>
-</div>
-
-
 <h5><%= link_to 'Return to Recipes Listing', recipes_path, class: 'btn btn-warning btn-small' %></h5>
