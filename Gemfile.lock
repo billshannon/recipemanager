@@ -41,6 +41,7 @@ GEM
     autoprefixer-rails (5.1.7.1)
       execjs
       json
+    bcrypt (3.1.10)
     bootstrap-sass (3.3.4)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
@@ -207,6 +208,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (= 3.1.10)
   bootstrap-sass (= 3.3.4)
   bootstrap-will_paginate (= 0.0.10)
   carrierwave (= 0.10.0)

@@ -14,6 +14,7 @@ gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '4.2.0'
 gem 'will_paginate', '3.0.7'
 gem 'bootstrap-will_paginate', '0.0.10'
+gem 'bcrypt', '3.1.10'
 
 gem 'spring',           group: :development
 
