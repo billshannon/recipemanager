@@ -1,5 +1,14 @@
 <%= render 'shared/page_title', title: "All Recipes" %>
 
+<ul class="nav nav-tabs">
+  <li class="active">
+    <%= link_to "Recipes", recipes_path %>
+  </li>
+  <li>
+    <%= link_to "Chefs", chefs_path %>
+  </li>
+</ul>
+
 <%= will_paginate %>
 
 <% @recipes.each do |recipe| %>
@@ -18,7 +27,7 @@
         <p><%= recipe.summary %></p>
 
         <p>
-          <span class="quiet"><small> created: <%= time_ago_in_words(recipe.created_at) %> ago, </small></span>
+          <span class="quiet"><small> created: <%= time_ago_in_words(recipe.created_at) %> ago,</small></span>
           <span class="quiet"><small> updated: <%= time_ago_in_words(recipe.updated_at) %> ago</small></span>
         </p>
         <div class="pull-right">
