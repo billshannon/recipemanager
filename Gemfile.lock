@@ -39,11 +39,11 @@ GEM
       tzinfo (~> 1.1)
     ansi (1.5.0)
     arel (6.0.0)
-    autoprefixer-rails (5.1.7.1)
+    autoprefixer-rails (5.1.8)
       execjs
       json
     bcrypt (3.1.10)
-    bootstrap-sass (3.3.4)
+    bootstrap-sass (3.3.4.1)
       autoprefixer-rails (>= 5.0.0.1)
       sass (>= 3.2.19)
     bootstrap-will_paginate (0.0.10)
@@ -298,7 +298,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt (= 3.1.10)
-  bootstrap-sass (= 3.3.4)
+  bootstrap-sass (= 3.3.4.1)
   bootstrap-will_paginate (= 0.0.10)
   carrierwave (= 0.10.0)
   coffee-rails (= 4.1.0)
